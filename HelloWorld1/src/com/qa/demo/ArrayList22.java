@@ -14,7 +14,7 @@ public class ArrayList22 {
 			sandwiches.add("bread sandwich");
 			sandwiches.add("pop tart");
 			sandwiches.add("hot dog");
-
+			sandwiches.add("Corned Beef Sandwich");
 			System.out.println(sandwiches);
 			
 		}
