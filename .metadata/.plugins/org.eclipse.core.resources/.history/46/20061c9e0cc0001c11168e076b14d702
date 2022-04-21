@@ -1,0 +1,59 @@
+package com.qa.demo;
+
+public class Tax2 {
+
+	public static void main(String[] args) {
+		
+
+//		taxbracket(6000);
+		tax(45000.00);
+	}
+
+	private static void tax(double salary) {
+		// Actual Tax Calculation to pay.
+		if (salary < 14999) {
+			System.out.println("You are in the 0% Tax rate & have to pay no Tax");
+	}
+		else if (salary < 19999) {
+			System.out.println("You are in the 10% Tax rate");
+			System.out.println("Your tax for the year is going to be ...£" + (salary/100) * 10);
+
+		}
+		else if (salary < 29999) {
+			System.out.println("You are in the 15% Tax rate");
+			System.out.println("Your tax for the year is going to be ...£" + (salary/100) * 15);
+	}
+		else if (salary < 44999) {
+			System.out.println("You are in the 20% Tax rate");
+			System.out.println("Your tax for the year is going to be ...£" + (salary/100) * 20);
+	}
+		else {
+			System.out.println("You are in the 25% Tax rate");
+			System.out.println("Your tax for the year on £" + salary + " is going to be ...£" + (salary/100) * 25);
+	}
+}	
+
+
+	private static void taxbracket(double salary) {
+		// Tax Bracket you  are in.
+	
+
+		if (salary < 14999) {
+				System.out.println("You are in the 0% Tax rate");
+		}
+			else if (salary < 19999) {
+				System.out.println("You are in the 10% Tax rate");
+		}
+			else if (salary < 29999) {
+				System.out.println("You are in the 15% Tax rate");
+		}
+			else if (salary < 44999) {
+				System.out.println("You are in the 20% Tax rate");
+		}
+			else {
+				System.out.println("You are in the 25% Tax rate");
+		}
+	}
+	
+	
+	}

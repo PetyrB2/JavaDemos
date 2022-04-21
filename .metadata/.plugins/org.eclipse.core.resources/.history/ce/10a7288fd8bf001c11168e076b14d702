@@ -1,0 +1,13 @@
+package com.qa.operators;
+
+public class ops {
+	
+	public static void main(String[] args) {
+		int num1 = 1;
+		int num2 = 2;
+		
+		int add = num1 + num2;
+		System.out.println(add);	
+	}
+
+}

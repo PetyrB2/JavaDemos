@@ -1,0 +1,19 @@
+package com.qa.results;
+
+public class results {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			
+	
+	int phys = 102;
+	int chem = 87;
+	int bio = 150;
+	int total = phys + chem + bio;
+	double perc = (total * 100)/450;
+	
+	System.out.println(perc);
+	}
+
+}

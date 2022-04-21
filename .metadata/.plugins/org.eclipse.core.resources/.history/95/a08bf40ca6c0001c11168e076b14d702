@@ -1,0 +1,22 @@
+package com.qa.demo;
+
+public class FlowMany {
+
+	
+	public static void main(String[] args) {
+		
+				OnetoTen();
+
+			}
+
+			private static void OnetoTen() // Create a method that can print out the numbers 1-10. Ten Times.
+
+			{
+				for (int i = 0; i < 11; i++) {
+					for (int i2 = 0; i2 < 11; i2++) {
+						System.out.println(i2);
+					}
+				}
+			}
+		}
+

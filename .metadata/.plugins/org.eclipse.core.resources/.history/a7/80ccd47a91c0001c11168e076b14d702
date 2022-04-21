@@ -1,0 +1,21 @@
+package com.qa.demo;
+
+public class TenTimes {
+	
+	public static void main(String[] args) {
+		//Create a method that can print out the numbers 1-10 10 times each.
+		
+		 {
+		        for(int i = 0; i < 11; i++) {
+		            System.out.println(i);
+		            if(int x = 0; x < 11; x++) {
+		            System.out.println(i);	
+		            }
+		            	
+		        }
+		
+		
+	}
+}
+	
+}

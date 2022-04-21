@@ -1,0 +1,28 @@
+package com.qa.demo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class AList {
+
+	public static void main(String[] args) {
+		
+			
+			public class sandwiches {
+				public static void main(String[] args) {
+					List<String> sandwiches = new ArrayList<>();
+					
+					sandwiches.add("bread sandwich");
+					sandwiches.add("pop tart");
+					sandwiches.add("hot dog");
+
+					System.out.println(sandwiches);
+					
+				}
+			}
+
+		}
+
+
+	}
+

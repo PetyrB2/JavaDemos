@@ -1,0 +1,60 @@
+package com.qa.results;
+
+public class results {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		method1();
+		method2();
+}
+
+	
+//	 Method 1 Physics, Chem, Bio and Total	
+	
+	 public static void  method1() {
+		 
+		 	double phys = 102d;
+			double chem = 87d;
+			double bio = 150d;
+			double total = phys + chem + bio;
+
+			System.out.println("All results are marked out of a possible 150");	
+			System.out.println("Physics:");	
+			System.out.println("---------");	
+			System.out.println(phys);
+			System.out.println("---------");
+			System.out.println("Chemistry:");
+			System.out.println("---------");
+			System.out.println(chem);
+			System.out.println("---------");
+			System.out.println("Biology:");	
+			System.out.println("---------");
+			System.out.println(bio);
+			System.out.println("---------");
+			System.out.println("Grand Total:");
+			System.out.println("---------");
+			System.out.println(total);
+			System.out.println("---------");
+			System.out.println("---------");
+	 }
+	 
+
+	
+//method 2 The Percentage below
+	
+	public static void method2() {
+		 
+	double phys = 102d;
+	double chem = 87d;
+	double bio = 150d;
+	double total = phys + chem + bio;
+	double perc = (total * 100)/450;
+	System.out.println("The Average Percentage is");	
+	System.out.println(perc);
+	
+	}
+	
+
+
+}

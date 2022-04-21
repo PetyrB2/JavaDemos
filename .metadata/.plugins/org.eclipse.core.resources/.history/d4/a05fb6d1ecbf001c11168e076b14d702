@@ -1,0 +1,48 @@
+package com.qa.operators;
+
+public class ops {
+	
+	public static void main(String[] args) {
+		
+		Addition();
+		Subtract();
+		Divide();
+		Multiply();
+		
+	}
+		
+		private static void Divide() {
+
+			double num5 = 11d;
+			double num6 = 10043d;
+			double division = num6 /num5 ;
+			System.out.println(division);
+					
+		
+	}
+
+		private static void Subtract() {
+			
+			int num3 = 33;
+			int num4 = 44;
+			int minus = num4 - num3;
+			System.out.println(minus);	
+	}
+
+		private static void Addition() {
+			int num1 = 1;
+			int num2 = 2;
+			int add = num1 + num2;
+			System.out.println(add);	
+	}
+
+
+	private static void Multiply() {
+		int num7 = 5;
+		int num8 = 6;
+		int multiply = num7 * num8;
+		System.out.println(multiply);
+		
+	}
+
+}

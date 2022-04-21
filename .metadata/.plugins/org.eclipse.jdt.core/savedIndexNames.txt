@@ -1,0 +1,7 @@
+INDEX VERSION 1.131+C:\Users\modac\OneDrive\Documents\QA Academy\Eclipse\.metadata\.plugins\org.eclipse.jdt.core
+2772189863.index
+1865797976.index
+465127329.index
+2203136301.index
+2866363158.index
+1210658807.index

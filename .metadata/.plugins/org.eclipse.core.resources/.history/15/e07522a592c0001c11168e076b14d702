@@ -1,0 +1,20 @@
+package com.qa.demo;
+
+public class TenTimes {
+	
+	public static void main(String[] args) {
+	
+		1to10();
+		
+	}
+
+	private static void to10() //Create a method that can print out the numbers 1-10.
+	
+	 {
+	        for(int i = 0; i < 11; i++) {
+	            System.out.println(i);
+	        }
+	
+	
+}
+}

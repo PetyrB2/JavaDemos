@@ -1,0 +1,30 @@
+package com.qa.demo;
+
+public class TenTimes {
+
+	public static boolean count = true;
+	public static int i = 0;
+	public static int i2 = 0;
+
+	public static void main(String[] args) {
+
+		OnetoTen();
+
+	}
+
+	private static void OnetoTen() // Create a method that can print out the numbers 1-10. Ten Times.
+
+	{for (int i = 0; i < 11; i++) {
+		
+		do {
+			System.out.println(i);
+			i2++;
+		
+			if(i2 > 10 ) {
+				count = false;
+			}
+		while (count);
+			}
+	}
+	}
+}

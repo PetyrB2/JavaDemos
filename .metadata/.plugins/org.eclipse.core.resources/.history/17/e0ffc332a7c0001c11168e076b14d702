@@ -1,0 +1,27 @@
+package com.qa.demo;
+
+public class Flowchart2 {
+
+	public static void main(String[] args) {
+
+		flow(100, true);
+
+	}
+
+	private static void flow(int i, boolean b) {
+		// Flowchart2
+
+		for(int i = 100, i < 200, i++) {
+			if (i%2 == 0) {
+				b = true;
+				System.out.println(" __ ");
+			}
+			if (i%2 != 0) {
+				b = false;
+				System.out.println(" ** ");
+			}
+			while (i <=200);
+
+	}
+
+}

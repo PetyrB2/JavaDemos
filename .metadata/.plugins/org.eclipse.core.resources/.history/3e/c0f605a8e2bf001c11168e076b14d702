@@ -1,0 +1,46 @@
+package com.qa.results;
+
+public class results {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		method1();
+		method2();
+}
+
+	
+//	 Method 1 Physics, Chem, Bio and Total	
+	
+	 public static void  method1() {
+		 
+		 	double phys = 102d;
+			double chem = 87d;
+			double bio = 150d;
+			double total = phys + chem + bio;
+			
+			System.out.print(phys);
+			System.out.print(chem);
+			System.out.print(bio);
+			System.out.print(total);
+	 }
+	 
+
+	
+//method 2 The Percentage below
+	
+	public static void method2() {
+		 
+	double phys = 102d;
+	double chem = 87d;
+	double bio = 150d;
+	double total = phys + chem + bio;
+	double perc = (total * 100)/450;
+	
+	System.out.print(perc);
+	
+	}
+	
+
+
+}

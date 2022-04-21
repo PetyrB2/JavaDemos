@@ -1,0 +1,23 @@
+package com.qa.demo;
+
+public class Arrays2 {
+
+	static int[] Array = new int[10];
+
+	private static void populate(int[] Array) {
+
+		for (int i = 0; i < Array.length; i++) {
+			Array[i]=i+1; 
+		
+			for (int j = 0; j < Array.length; j++) {
+				System.out.println(Array[j*10]);
+		}
+	}
+	}
+	public static void main(String[] args) {
+
+			populate(Array);
+
+
+	}
+}
