@@ -19,7 +19,7 @@ public class AList2 {
 		faveNums.add(123123);
 		faveNums.add(1312);
 		
-		 Collections.sort(faveNums);
+		 Collections.reverse(faveNums);
 		 
 		 
 		for (int i : faveNums) {
