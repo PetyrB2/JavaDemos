@@ -10,17 +10,19 @@ public class Runner {
 		Person gurveer = new Person("Gurveer", 5.11, 8.5, "Dolphin Trainer", 45);
 		Person fowsia = new Person("Fowsia", 6.0, 8.5, "Synchronised Swimmer", 25);
 		
-		
+		//calling greet() method from Person 
 		pawel.greet();
 		peter.greet();
 		gurveer.greet();
 		fowsia.greet();
 		
-		
+		//calling nameheight() method from Person
 		pawel.nameheight();
 		peter.nameheight();
 		gurveer.nameheight();
 		fowsia.nameheight();
 		
+		
+	
 	}
 }

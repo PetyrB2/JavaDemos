@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class BlackJack {
 
 	public static void main(String[] args) {
+		
 		while (true) {
 			int closer = blackJack(Integer.parseInt(getInput("Number 1: ")), Integer.parseInt(getInput("Number 2: ")));
 			System.out.println(closer + "\n");
@@ -30,10 +31,10 @@ public class BlackJack {
 		return closest;
 	}
 
-	public static String getInput(String message) {
-// Initialise scanner object
-		Scanner input = new Scanner(System.in);
-		System.out.print(message);
-		return input.nextLine();
-	}
-}
+//	public static String getInput(String message) {
+//// Initialise scanner object
+//		Scanner input = new Scanner(System.in);
+//		System.out.print(message);
+//		return input.nextLine();
+//	}
+//}
